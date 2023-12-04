@@ -1,0 +1,178 @@
+
+body{
+    width: 100vw;
+    height: 1550px;
+    padding: 250px 0px;
+    background-image: url(../img/bege.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(110, 110, 110);
+    margin-left: 0px;
+    font-family: 'Inter', sans-serif;
+}
+li:hover{
+    color: rgb(192, 169, 92);
+    transition: 0.2s;
+    cursor:pointer;
+}
+h2:hover{
+    color: rgb(192, 169, 92);
+    transition: 0.4s;
+    cursor:pointer;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 170px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(15px);
+}
+.header-logo{
+    width: 1.9em;
+    color: rgb(110, 110, 110);
+}
+.header-logo-nome{
+    color: rgb(110, 110, 110);
+    transition: 0.6s;
+}
+.header-logo-nome:hover{
+    color: rgb(192, 169, 92);
+    transition: 0.6s;
+    cursor:pointer;
+}
+.header-botao-cabecalho{
+    display: flex;
+    color: rgb(110, 110, 110);
+    text-transform: uppercase;
+}
+.header-botao-lista{
+    padding: 1em;
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+    transition: 0.5s;
+}
+.header-botao-lista:hover{
+    color: rgb(192, 169, 92);
+    transition: 0.5s;
+    cursor:pointer;
+    
+}
+.header-rede-social{
+    padding: 1.5em;
+}
+.header-foto-rede{
+    width: 1.5em;
+    margin-left: 1.5em;
+}
+.main-area-principal{
+    display: flex;
+    flex-flow:initial ;
+   
+}
+.main-foto-principal{
+    width: 50vw;
+    height: 50vh;
+    border-radius: 0px 160px 0px 200px ;
+}
+.main-assunto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2em 1em;
+    text-align: center;
+}
+.main-titulo-foto{
+    font-size: 2.5em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    transition: 0.4s;
+}
+.main-paragraf{
+    font-size: 1.2em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+.main-skill{
+    margin-bottom: 2.5em;
+    font-size: 2em;
+    background-color: #f00;
+}
+.main-area-skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(110, 110, 110);
+}
+.main-skill-name_list{
+    margin: 20px;
+    background-color: rgb(236, 229, 161);
+    padding: 1.5em;
+    border-radius: 50px 10px 50px 5px;
+    font-size: 2em;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+    transition: 0.8s;
+}
+.main-skill-name_list:hover{
+    background-color:  rgb(233, 207, 120);
+    transition: 0.5s;
+    color: black;
+    font-weight: 400;
+    cursor:pointer;
+}
+.main-video-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.main-video{
+    width: 100vw;
+    height: 50vh;
+}
+footer{
+    height: 30px;
+}
+
+
+.footer-base{
+    display: flex;
+    justify-content:space-around;
+}
+.footer-base-dev:hover{
+    color: rgb(192, 169, 92);
+    transition: 0.2s;
+    cursor:pointer;
+}
+.footer_contatos{
+    display: flex;
+    flex-direction: column;
+}
+.footer_contatos-lista{
+    padding-top: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+}
+.footer_contatos-lista:hover{
+    color: rgb(192, 169, 92);
+    transition: 0.2s;
+    cursor:pointer;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
